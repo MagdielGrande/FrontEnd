@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+}
+h3{
+   
+    font-weight: bold;
+}
+
+
+/* Estilo de header */
+header {  
+    padding: 10px;
+    margin: 0%;
+    text-align: left;
+    font-size: 30px;
+    background-color: #009c7d;
+    color: white;
+    
+}
+header h1{
+    display: inline-block;
+}
+header img{
+    border-radius: 50%;
+}
+
+/* Crear 2 columnas con la misma posición en la fila */
+p{
+    font-weight: bold; 
+}
+.dividendo{
+    color: #010a09;
+    font-weight: bold;
+  
+    padding: 10px;
+    opacity: 0.5;
+}
+
+nav{
+    margin: 0%;
+}
+nav ul{
+    margin: 0%;
+    padding: 10px;
+    background-color: #00ad8d;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    list-style: none;
+    text-align: center;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+  
+    height: 300px;
+}
+
+
+
+/* Estilo de footer */
+footer {
+    
+    padding: 26px;
+
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    width: 100%; 
+    background-color: white;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+/* Responsive layout */
+
+div {
+    margin: 20px;
+  
+}
+div ul{
+    margin: 0%;
+    position: relative;
+    padding: 0%;
+   float: left;
+  
+    
+}
+div ul li{
+    display: inline-block;
+    
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+  
+
+}
+div ul li a{
+
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+  font-weight: bold;
+
+  color: rgba(143, 8, 8, 0.575);
+
+}
+div ul li a p{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+div ul li a img{
+    border-radius: 20px;
+}
+
+@media (max-width: 564px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    
+    }
+    nav ul li {
+    
+        width: 100%;
+        list-style: none;
+        text-align: left;
+     
+    }
+    
+}
+
+/* PAGE about */
+.about{
+    width: 70%;
+    height: auto;
+    margin: 0% auto;
+    
+    padding: 30px;
+    border-radius: 20px;
+   
+}
+.about p, .about h3{
+margin: 0%;
+
+}
+.divdiv{
+    width: 15%;
+    height: 200px;
+    margin: 0% auto;
+    padding: 0%;
+    float: left;
+    
+
+}
+.divdiv2{
+    width: 15%;
+    height: 200px;
+    margin: 0% auto;
+    padding: 0%;
+    float: right;
+  
+
+}
+.atiabout{
+    width: 100%;
+    height: auto;
+  
+ float: left;
+    margin: 0% auto;
+    padding: 0%;
+}
+
+.default{
+   
+font-size: 2em;
+text-align: center;
+}
+table{
+    margin: 30px;
+    padding: 10px;
+}
+
+.titleHome
+{
+color: #035c49;
+font-family: arial, sans-serif;
+font-weight: bold;
+
+}
+.contenedor{
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fondoCompleto{
+    background-image: url("/assets/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.estiloAcerca{
+    background-color: #ffffff;
+    opacity: 0.7;
+    padding: 40px;
+    color: rgb(6, 158, 69);
+}
+table, tr{
+    background-color: #009c7d;
+    color: white;
+}
+table tr td{
+    background-color: #17ad62;
+}
+table caption{
+    color: #009c7d;
+}
+.pedidotitle{
+    color:#009c7d ;
+    padding: 15px;
+}
+form label{
+    color: #009c7d;
+    padding: 20px;
+}
+form input, select{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+}

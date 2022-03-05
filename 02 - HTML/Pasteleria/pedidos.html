@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinky's</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="" width="60" height="60">
+        <h1>Pasteleria Pinky's</h1>
+    </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pedidos.html">Hacer Pedidos</a></li>
+                <li><a href="acercade.html">acerca de...</a></li>
+                <li><a href="pastelero.html">Pastelero</a></li>
+            </ul>
+        </nav>
+
+    
+    <br>
+
+    <section class="contenedor">
+        
+        <div >
+            <h1 class="pedidotitle">Hacer pedido</h1>
+            <br><br>
+            <form action="enviar.html" id="form1" method="GET">
+                
+                <label for="nombre"> Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                
+                <label for="telefono"> Telefono:</label><br>
+                <input type="tel" id="tel" name="tel"> <br><br>
+                
+                <label for="email"> Email:</label><br>
+                <input type="email" id="email" name="email"> <br><br>
+        
+                <label for="sabor1"> Sabor principal:</label><br>
+                <select name="sabor1">
+        
+                    <option>Limon</option>
+                    <option>Fresa</option>
+                    <option>Vainilla</option>
+                    <option>chocolate</option>
+                    
+                </select><br><br>
+        
+                <label for="sabor2">Agregar segundo sabor:</label><br>
+                
+                <select name="sabor2">
+                        
+                    <option>Ninguno</option>
+                    <option>Limon</option>
+                    <option>Fresa</option>
+                    <option>Vainilla</option>
+                    <option>chocolate</option>
+                        
+                 </select><br><br>
+        
+                 <label for="adornos">Agregar Adornos:</label><br>
+                
+                <select name="adornos">
+                        
+                    <option>Ninguno</option>
+                    <option>Felicidades</option>
+                    <option>Forma del pastel</option>
+                    <option>Varios Pisos</option>
+                    <option>Algún mensaje</option>
+                        
+                 </select><br><br>
+                 <label for="adornos2">Agregar otro Adornos:</label><br>
+                
+                 <select name="adornos2">
+                         
+                     <option>Ninguno</option>
+                     <option>Felicidades</option>
+                     <option>Forma del pastel</option>
+                     <option>Varios Pisos</option>
+                     <option>Algún mensaje</option>
+                         
+                  </select><br><br>
+                  <label for="nota">Agrega los detalles de tu pastel.</label><br>
+        
+                  <textarea name="nota" id="" cols="30" rows="10"></textarea><br><br>
+        
+                <input type="submit" value="Enviar" title="submit">
+                <input type="reset">
+        
+            </form>
+        </div>
+     
+
+    </section>
+    
+   
+    <br>
+
+    <footer>Todos lo derechos reservados copyright@2022</footer>
+</body>
+</html>
