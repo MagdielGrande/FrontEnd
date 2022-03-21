@@ -1,0 +1,765 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+/* colores para el tipo de pokemon*/
+.bug{
+    background-color: #a9b920;
+    border-radius: 10px;
+    padding: 2px;
+}
+.dark{
+    background-color: #715849;
+    border-radius: 10px;
+    padding: 2px;
+}
+.dragon{
+    background-color:#7038f8 ;
+    border-radius: 10px;
+    padding: 2px;
+}
+.electric{
+    background-color: #f8d130;
+    border-radius: 10px;
+    padding: 2px;
+}
+.fairy{
+    background-color: #ee99ad;
+    border-radius: 10px;
+}
+.fighting{
+    background-color: #c03028;
+    border-radius: 10px;
+    padding: 2px;
+}
+.fire{
+    background-color: #f08030;
+    border-radius: 10px;
+    padding: 2px;
+}
+.flying{
+    background-color:#a890f0 ;
+    border-radius: 10px;
+    padding: 2px;
+}
+.ghost{
+    background-color: #705998;
+    border-radius: 10px;
+    padding: 2px;
+}
+.grass{
+    background-color: #78c851;
+    border-radius: 10px;
+}
+.ground{
+    background-color: #e0c169;
+    border-radius: 10px;
+    padding: 2px;
+}
+.ice{
+    background-color: #99d8d8;
+    border-radius: 10px;
+    padding: 2px;
+}
+.normal{
+    background-color:#a9a979 ;
+    border-radius: 10px;
+    padding: 2px;
+}
+.poison{
+    background-color: #a040a1;
+    border-radius: 10px;
+    padding: 2px;
+}
+.psychic{
+    background-color: #f85988;
+    border-radius: 10px;
+    padding: 2px;
+}
+.rock{
+    background-color: #b8a038;
+    border-radius: 10px;
+    padding: 2px;
+}
+.steel{
+    background-color:#696969 ;
+    border-radius: 10px;
+    padding: 2px;
+}
+.water{
+    background-color: #198be0;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pie{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinMarg{
+    padding: 0%;
+    margin: 0%;
+    color: #0a3991;
+    font-weight: bold;
+}
+.colormove{
+    padding: 0%;
+    margin: 0%;
+    color: #cdb915;
+    font-weight: bold;
+}
+.textoPrincipal{
+    display: flex;
+    justify-content: center;
+}
+.pokemon{
+    color: #fbff00;
+    font-size: 1.5rem; 
+    text-shadow: 3px  3px 3px #2048de,
+    3px  3px 3px #2048de,
+   -3px  0px 0px #2048de,
+    0px -3px 0px #2048de;         
+}
+
+.lcd{
+    border: 5px solid #272c2d;
+    width: 100%;   
+    height: auto;
+    background-color: #272c2d;  
+}
+.fondoNegro {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    padding: 2px;
+}
+/*boton rectangulo*/
+.rec{
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    
+    justify-content: end;
+}
+.rectangulo{
+    margin-right: 20px;
+    background-color: #272c2d;
+    width: 30px;
+    height: 10px;
+
+    border-radius: 2px;
+}
+.joystikCircle{
+    position: absolute;
+    background-color: #272c2d;
+    width: 75px;
+    height: 75px;
+    top: 80px;
+    right: 25%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.botonUp{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 195px;
+    right: 40%;
+    border-radius: 50%;
+    
+   
+}
+.botonRight{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 225px;
+    right: 30px;
+    border-radius: 50%;
+    
+}
+.botonDown{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 255px;
+    right: 40%;
+    border-radius: 50%;
+    
+}
+.botonLeft{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 225px;
+    right: 90px;
+    border-radius: 50%;
+    
+}
+.botonSquad{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    bottom: 150px;
+    right: 25%;
+    border-radius: 3px;
+}
+
+
+/* joystick rred*/
+.cruz{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 10px;
+    top: 30px;
+    right: 100px;
+    border-radius: 1px;
+    transform: rotate(90deg);
+  
+}
+.cruz2{
+    
+        position: absolute;
+        background-color: #272c2d;
+        width: 30px;
+        height: 10px;
+        top: 30px;
+        right: 100px;
+        border-radius: 1px;
+       
+
+}
+.botonUp2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 65px;
+    right: 40%;
+    border-radius: 50%;
+    border:1px solid black;
+}
+
+.botonRight2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 95px;
+    right: 30px;
+    border-radius: 50%;
+    border:1px solid black;
+    
+}
+
+.botonDown2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top:125px;
+    right: 40%;
+    border-radius: 50%;
+    border:1px solid black;
+    
+}
+.botonLeft2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 30px;
+    height: 30px;
+    top: 95px;
+    right: 90px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.joystikCircle2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 75px;
+    height: 75px;
+    top: 190px;
+    right: 25%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.botonSquad2{
+    position: absolute;
+    background-color: #272c2d;
+    width: 40px;
+    height: 40px;
+    bottom: 160px;
+    right: 60%;
+    border-radius: 50%;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.switchDex{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cajaLeft{
+    width: 100%;
+    
+    border-bottom: 12px solid #90062a;
+    border-left: 10px solid #90062a;
+    background-color: #d30a40;
+    border-radius: 40px 15px 15px 40px;
+}
+.cajaRight{
+    width: 100%;
+    
+    margin-top: 10px;
+    position: relative;
+    border-radius: 0 0 40px 0;
+    background-color: #bf0638;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+.pokedex-leds{
+    margin: 5px;
+    display:inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.pokedex-azul
+{
+
+    height: 100%;
+    width: auto;
+}
+.circuloazul{
+    background: #a8f2fb;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(168, 242, 251, 1) 0%, rgba(13, 241, 252, 1) 50%, rgba(14, 188, 212, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(168, 242, 251, 1) 0%, rgba(13, 241, 252, 1) 50%, rgba(14, 188, 212, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(168, 242, 251, 1) 0%, rgba(13, 241, 252, 1) 50%, rgba(14, 188, 212, 1) 100%);
+    border-radius: 50%;
+    border-top: 2.5px solid white;
+    border-right: 2.5px solid white;
+    border-bottom: 5px solid white;
+    border-left:5px solid white;
+    margin: 5px 0 5px 5px;
+    height: 60px;
+    width: 60px;
+}
+.pokedex-caja-colores{
+    display: flex;
+    padding-top: 5px;
+    
+}
+
+.joyLeft{
+    background-color: #00bbe1;
+    width: 150px;
+    height: 500px;
+    border-radius:50px 0 0 50px;
+    position: relative;
+    box-shadow: inset 100px 26px 6px -95px rgba(0, 0, 0, .6);
+}
+.joyRight{
+    background-color: #ff5d51;
+    width: 150px;
+    height: 500px;
+    border-radius: 0 50px 50px 0 ;
+    position: relative;
+    box-shadow: inset 100px 26px 6px -95px rgba(0, 0, 0, .6),-7px -7px 7px 3px rgba(0, 0, 0, .22);
+}
+
+.pokedex-leds-color{
+    border-radius: 50%;
+    margin: 3px;
+    height: 20px;
+    width: 20px;    
+}
+
+.pokedex-caja-container{
+    position: relative;
+    background: #e3e3e3;
+    border-radius: 20px;
+    border-left: 7px solid #838584;
+    border-bottom: 7px solid #838584;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;   
+}
+
+.pokedex-caja-imagen{
+    width: 100%;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-imagen {
+    height: 100%;
+}
+
+.d-flexModi{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.disenoInput{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #a1f4fe;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.disenoButton{
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    border: 5px;
+    background-color: #5fc480;
+}
+
+.pokedex-datos{
+    width: 100%;
+    height: 120px;
+    border-radius: 7px;
+    background: #084035;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.pokemonDatosName{
+    font-size: 16px;
+    font-weight: normal;
+    color: white;   
+}
+.pokemonDatosTypes{
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pokemonDatosTypes li {
+    display: inline;
+    margin: 5px;
+}
+.pokedexBotones {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.pokedexShadow{
+    background: #457fc8;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.pokedexButton {
+    height: 60px;
+    margin:3px;
+    box-sizing: border-box;
+    width: 60px;
+    background: #22c4ea;
+    display: flex;
+    border-radius:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokedexCajaMovs {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.pokedexMov {
+    width: 100%;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    height: 100%;
+    background: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pokedexBotonCaja2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: end;
+}
+
+.pokedexAmarillo {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    background-color: #c7bd76;
+}
+
+
+#pantallaPrincipal{
+    width: 100%;
+    height: auto;
+}
+#joystik-right{
+    visibility: hidden;
+    width: 0%;
+    
+}
+#joystik-left{
+    visibility: hidden;
+    width: 0%;
+}
+
+
+@media (min-width: 540px) {
+/*@media (min-width: 768px) {*/
+
+    .cajaLeft{
+        width: 50%;
+    }
+    .cajaRight{
+        width: 50%;
+        height: 95%;
+        margin-top: 12px;
+    }
+    .fondoNegro {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        display: inline-flex;
+    }
+    .pokemonDatosTypes{
+        font-size: 20px;
+        flex-direction:row;
+    }
+    .pokemonDatosName{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .pokedex-leds{
+        width: 97%;
+        margin: 0px;
+        display:inline-flex;
+   
+    }
+    .pokedex-caja-colores{
+        justify-content: end;
+        width: 50%;
+        margin-top: 15px; 
+    }
+    .pokedex-azul
+{
+    width: 47%;
+    margin-top: 5px;
+}
+.pokemon{
+
+    font-size: 2rem; 
+      
+}
+.d-flexModi{
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.disenoInput{
+    width: 50%;
+    margin-bottom: 0px;
+}
+.disenoButton{
+    width: 40%;
+    font-weight: bold;
+}
+
+}
+@media (min-width: 970px){
+/*@media (min-width: 1024px){*/
+    #joystik-right{
+        visibility: visible;
+        width: 190px;
+      }
+      #joystik-left{
+        visibility: visible;
+        width: 190px;
+      }
+      
+}
+
+
+/*
+@media (max-width: 991px) {
+
+    .disenoButton{
+        border-radius: 10px;
+        padding: 7px;
+        width: 70px;
+        color: white;
+        border: 5px;
+        margin-top: 15px;
+        background-color: #5fc480;
+    }
+
+    .d-flexModi{
+        display: block;
+        margin-bottom: 10px;
+        }
+    .pokedex-leds{
+        height: 50px;
+        width: 0%;
+    }
+    .pokedexMov {
+        width: 100%;
+    }
+
+    label{
+        font-size: 16px;
+    }
+
+    .colormove{
+    font-size: 16px;
+    }
+
+    .pokedexBotonCaja2 {
+        left: 300px;       
+    }
+    .pokedexCajaMovs {
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        top: 330px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ocultarMin{
+        visibility: hidden;
+    }
+
+    .pokedex-datos{
+        width: 96%;
+        height: 100px;
+    }
+
+    .pokemonDatosName{
+        font-size: 20px;
+    }
+    .pokemonDatosTypes{
+        font-size: 20px;
+    }
+
+    #joystik-right{
+      visibility: hidden;
+      width: 0%;
+      
+    }
+    #pantallaPrincipal{
+        width: 100%;
+        height: 500px;
+        border: 10px solid #272c2d;
+        background-color: #272c2d;
+        border-radius: 0 10px 10px 0 ;
+    }
+    #leds{
+        visibility: hidden;
+      width: 0%; 
+    }
+    .joyLeft{
+        width: 200px;
+    }
+ }
+
+ @media (max-width: 767px) {
+    #joystik-left{
+      visibility: hidden;
+      width: 0%;
+    }
+    #pantallaPrincipal{
+        width: 100%;
+        height: 500px;
+        border: 10px solid #272c2d;
+        background-color: #272c2d;
+        border-radius: 10px 10px 10px 10px ;
+        margin: 0%;
+    }
+ }
+
+ @media (max-width:1199px) and (min-width:992px){
+    .pokedexCajaMovs {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 330px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+ }
+ */
+
+ 
