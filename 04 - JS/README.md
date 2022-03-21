@@ -1,5 +1,7 @@
 # Práctica de Js
 
+<a href="https://github.com/MagdielGrande/FrontEnd/tree/main/04%20-%20JS/pokeswitchdex">Link de la  práctica</a>
+
 <p>Maquetación del sitio con HTML</p>
 <p>Diseño con CSS para que parezca un pokedex la página.</p>
 <p>Tiene un input de entrada, donde se introduce el nombre del pokemón o el número a buscar.</p>
